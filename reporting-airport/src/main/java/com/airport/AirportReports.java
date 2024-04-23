@@ -7,7 +7,7 @@ import java.util.List;
 public class AirportReports implements ReportingExt {
     @Override
     public String getReportingExtId() {
-        return "";
+        return "AirportReports";
     }
 
     @Override

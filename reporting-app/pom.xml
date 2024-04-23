@@ -20,6 +20,12 @@
             <artifactId>reporting-airport</artifactId>
             <version>1.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.reportg</groupId>
+            <artifactId>reporting-google-auto-service</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     <properties>
