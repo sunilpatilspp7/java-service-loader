@@ -5,7 +5,8 @@ A service is a well-known set of interfaces and (usually abstract) classes. A se
 
 A service provider is identified by placing a provider-configuration file in the resource directory META-INF/services. The file's name is the fully-qualified binary name of the service's type. The file contains a list of fully-qualified binary names of concrete provider classes, one per line.
 
-AutoService:
+## Google's AutoService:
 A configuration/metadata generator for java.util.ServiceLoader-style service providers.
+No need to add configuration file in the resource directory META-INF/services, this will be auto generated. 
 
 
